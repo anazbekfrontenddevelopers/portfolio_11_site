@@ -451,10 +451,11 @@
 .main_three{
     position: relative;
     width: 100%;
-    height: 375px;
+    min-height: 375px;
+    height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 0px 130px;
+    padding: 0px 50px;
     background-color: #F6F6F7;
     align-items: center;
     flex-wrap: wrap;

@@ -31,9 +31,6 @@
   .main_two h1 {
     font-size: 36px;
   }
-  .main_three {
-    height: 800px;
-  }
   .main_three .lineka {
     display: none;
   }
@@ -114,9 +111,6 @@
   }
   .main_two h1 {
     font-size: 25px;
-  }
-  .main_three {
-    height: 900px;
   }
   .main_four_slide {
     height: 300px;
