@@ -24,7 +24,7 @@ document.getElementById("main_menu_icon").onclick=function(){
 let main_img=5;
 let margin=20;
 window.location();
-console.log(window.screen.width());
+console.log(window.screen.width);
 let slide_img=document.querySelectorAll(".slide_img");
 for(let j=0;j<slide_img.length;j++){
     slide_img[j].onclick=function(){
