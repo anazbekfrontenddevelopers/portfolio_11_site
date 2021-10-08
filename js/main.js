@@ -27,7 +27,7 @@ let slide_img=document.querySelectorAll(".slide_img");
 for(let j=0;j<slide_img.length;j++){
     slide_img[j].onclick=function(){
         if(j<main_img){
-            margin+=640;
+            margin+=440;
             slide_img[0].style.marginLeft=margin+"px";
             slide_img[main_img].style.transform="scale(1)";
             slide_img[main_img].style.zIndex="2";
@@ -36,7 +36,7 @@ for(let j=0;j<slide_img.length;j++){
             main_img--;
         }
         if(main_img<j){
-            margin-=640;
+            margin-=440;
             slide_img[0].style.marginLeft=margin+"px";
             slide_img[main_img].style.transform="scale(1)";
             slide_img[main_img].style.zIndex="2";

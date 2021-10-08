@@ -837,6 +837,7 @@
 }
 
 .main_four_slide {
+  margin: 0 auto;
   width: auto;
   height: 500px;
   position: relative;
@@ -846,10 +847,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
   z-index: 2;
 }
 
@@ -865,7 +866,7 @@
 
 .main_four_slide img {
   position: relative;
-  width: 300px;
+  width: 200px;
   margin-left: 20px;
   z-index: 2;
   -webkit-transition: all 0.5s ease;
