@@ -23,7 +23,6 @@ document.getElementById("main_menu_icon").onclick=function(){
 // slide
 let main_img=5;
 let margin=20;
-window.location(1000);
 console.log("salom");
 let slide_img=document.querySelectorAll(".slide_img");
 for(let j=0;j<slide_img.length;j++){
