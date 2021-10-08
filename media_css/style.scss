@@ -1,0 +1,147 @@
+@media screen and (max-width:1100px){
+    .mainmenu{
+        .main_menu_icon{
+            display: block;
+            transition: all 0.5s ease-in;
+        }
+        ul{
+            display: none;
+        }
+    }
+    .main_one{
+        div{
+            height: 240px;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 12px;
+                width: 430px;
+            }
+            button{
+                font-size: 10px;
+                width: 120px;
+                height: 30px;
+            }
+        }
+        img{
+            width: 400px;
+        }
+        .img_two{
+            width: 500px;
+        }
+    }
+    .main_two{
+        h1{
+            font-size: 36px;
+        }
+    }
+    .main_three{
+        height: 600px;
+        .lineka{
+            display: none;
+        }
+    }
+    .main_five{
+        div{
+            width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width:870px){
+    .startmenu{
+        .iconmenu{
+            right: 5%;
+        }
+    }
+    .main_one{
+        height: 400px;
+        div{
+            h1{
+                font-size: 25px;
+                width: 300px;
+            }
+            p{
+                font-size: 12px;
+                width: 260px;
+            }
+            button{
+                font-size: 10px;
+                width: 120px;
+                height: 30px;
+            }
+        }
+        img{
+            width: 300px;
+        }
+        .img_two{
+            width: 400px;
+        }
+    }
+    .main_two{
+        h1{
+            font-size: 32px;
+        }
+    }
+    .main_end{
+        div{
+            width: 50%;
+        }
+    }
+}
+@media screen and (max-width:660px){
+    .startmenu{
+        .logo{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .iconmenu{
+            // background-color: aqua;
+            width: 50%;
+            .fol{
+                font-size: 10px;
+            }
+        }
+    }
+    .main_one{
+        height: 200px;
+        div{
+            height: 150px !important;
+            h1{
+                font-size: 15px;
+                width: 150px;
+            }
+            p{
+                font-size: 8px;
+                width: 150px;
+                line-height: 8px;
+            }
+            button{
+                font-size: 10px;
+                width: 120px;
+                height: 30px;
+            }
+        }
+        img{
+            width: 150px;
+        }
+        .img_two{
+            width: 250px;
+        }
+    }
+    .main_two{
+        h1{
+            font-size: 25px;
+        }
+    }
+    .main_three{
+        height: 800px;
+    }
+    .main_end{
+        div{
+            width: 100%;
+        }
+    }
+}
